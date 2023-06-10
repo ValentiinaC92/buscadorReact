@@ -15,7 +15,8 @@ Otras tecnologías:
 ¿Quieres probarla?
 
 - Descarga el proyecto:
-
+  https://github.com/ValentiinaC92/buscadorReact.git
+- cd buscaorreact-main
 - npm install
 - npm start
 
