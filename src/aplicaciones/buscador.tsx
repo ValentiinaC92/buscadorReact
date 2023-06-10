@@ -45,7 +45,6 @@ class Buscador extends React.Component<{}, BuscadorState> {
         .then((response) => response.json())
         .then((data) => {
           this.setState({ datos: data.data });
-          console.log(data.data, "este");
           this.setState({ loader: false });
         })
         .catch((error) => {
