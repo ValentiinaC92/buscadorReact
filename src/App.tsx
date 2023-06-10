@@ -7,7 +7,7 @@ import Buscador from "./aplicaciones/buscador";
 export class App extends React.Component {
   render() {
     return (
-      <div>
+      <div className="absolute w-full h-full inset-0 overflow-hidden">
         <Buscador />
       </div>
     );
